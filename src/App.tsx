@@ -1,4 +1,7 @@
 import './App.css'
+import floodImage from './assets/flood.jpg'
+import micahImage from './assets/micah2.jpg'
+import kareemImage from './assets/kareem1.jpg'
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
       {/* Header Image */}
       <div className="w-full h-96 relative overflow-hidden">
         <img
-          src="./flood.jpg"
+          src={floodImage}
           alt="Header"
           className="absolute w-full h-full object-cover object-center"
         />
@@ -37,14 +40,14 @@ function App() {
                     </p>
                   </div>
                   <img 
-                    src="./micah2.jpg" 
+                    src={micahImage}
                     alt="Coach Micah" 
                     className="rounded-lg shadow-lg w-full max-w-md"
                   />
                 </div>
                 <div className="flex items-center gap-8">
                   <img 
-                    src="./kareem1.jpg" 
+                    src={kareemImage}
                     alt="Coach Kareem" 
                     className="rounded-lg shadow-lg w-full max-w-md"
                   />
